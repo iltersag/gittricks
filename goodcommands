@@ -1,0 +1,5 @@
+log commit list
+git log --date=format:'%Y-%m-%d' --pretty="%cd|%s" --no-merges
+
+log tag list
+git tag -l --sort=-creatordate --format='%(creatordate:short)|%(refname:short)'
