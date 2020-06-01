@@ -6,3 +6,6 @@ git tag -l --sort=-creatordate --format='%(creatordate:short)|%(refname:short)'
 
 log all commit details
 git log --date=format:'%Y-%m-%d' --pretty="%cd|%s" --no-merges --after="15-08-2019" --before="22-09-2019"
+
+Hangi Branchte olduğu
+git rev-parse --abbrev-ref HEAD
