@@ -9,3 +9,6 @@ git log --date=format:'%Y-%m-%d' --pretty="%cd|%s" --no-merges --after="15-08-20
 
 Hangi Branchte olduğu
 git rev-parse --abbrev-ref HEAD
+
+commitsiz merge
+git merge v1.0 --no-commit --no-ff
